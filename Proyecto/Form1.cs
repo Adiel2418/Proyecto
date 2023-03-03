@@ -17,7 +17,6 @@ namespace Proyecto
 
         }
 
-
         private void btnRegistro_Click(object sender, EventArgs e)
         {
             string nombreUsuario = txtNombreUsuario.Text;
@@ -70,5 +69,7 @@ namespace Proyecto
             Form ventanaInicioSesion = new Form(); //crear una instancia de la ventana anterior
             ventanaInicioSesion.Show(); //mostrar la ventana anterior
         }
+
+     
     }
 }

@@ -48,11 +48,13 @@
             // lblNombreUsuario
             // 
             this.lblNombreUsuario.AutoSize = true;
-            this.lblNombreUsuario.Location = new System.Drawing.Point(148, 71);
+            this.lblNombreUsuario.BackColor = System.Drawing.Color.Transparent;
+            this.lblNombreUsuario.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblNombreUsuario.Location = new System.Drawing.Point(93, 77);
             this.lblNombreUsuario.Name = "lblNombreUsuario";
-            this.lblNombreUsuario.Size = new System.Drawing.Size(54, 15);
+            this.lblNombreUsuario.Size = new System.Drawing.Size(112, 15);
             this.lblNombreUsuario.TabIndex = 0;
-            this.lblNombreUsuario.Text = "Nombre:";
+            this.lblNombreUsuario.Text = "Nombre de usuario:";
             // 
             // lblCorreo
             // 
@@ -83,7 +85,7 @@
             // 
             // txtNombreUsuario
             // 
-            this.txtNombreUsuario.Location = new System.Drawing.Point(208, 68);
+            this.txtNombreUsuario.Location = new System.Drawing.Point(208, 74);
             this.txtNombreUsuario.Name = "txtNombreUsuario";
             this.txtNombreUsuario.Size = new System.Drawing.Size(129, 23);
             this.txtNombreUsuario.TabIndex = 4;
@@ -168,11 +170,11 @@
             this.Controls.Add(this.txtConfirmarContrasenia);
             this.Controls.Add(this.txtContrasenia);
             this.Controls.Add(this.txtCorreo);
-            this.Controls.Add(this.txtNombreUsuario);
             this.Controls.Add(this.lblConfirmarContrasenia);
             this.Controls.Add(this.lblContrasenia);
             this.Controls.Add(this.lblCorreo);
             this.Controls.Add(this.lblNombreUsuario);
+            this.Controls.Add(this.txtNombreUsuario);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "Form1";
