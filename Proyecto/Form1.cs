@@ -69,7 +69,7 @@ namespace Proyecto
             Form ventanaInicioSesion = new Form(); //crear una instancia de la ventana anterior
             ventanaInicioSesion.Show(); //mostrar la ventana anterior
         }
-
+        //Adiel uc 
      
     }
 }
