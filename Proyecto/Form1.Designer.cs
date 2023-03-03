@@ -50,16 +50,16 @@
             this.lblNombreUsuario.AutoSize = true;
             this.lblNombreUsuario.BackColor = System.Drawing.Color.Transparent;
             this.lblNombreUsuario.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblNombreUsuario.Location = new System.Drawing.Point(93, 77);
+            this.lblNombreUsuario.Location = new System.Drawing.Point(132, 82);
             this.lblNombreUsuario.Name = "lblNombreUsuario";
-            this.lblNombreUsuario.Size = new System.Drawing.Size(112, 15);
+            this.lblNombreUsuario.Size = new System.Drawing.Size(50, 15);
             this.lblNombreUsuario.TabIndex = 0;
-            this.lblNombreUsuario.Text = "Nombre de usuario:";
+            this.lblNombreUsuario.Text = "Usuario:";
             // 
             // lblCorreo
             // 
             this.lblCorreo.AutoSize = true;
-            this.lblCorreo.Location = new System.Drawing.Point(156, 110);
+            this.lblCorreo.Location = new System.Drawing.Point(132, 126);
             this.lblCorreo.Name = "lblCorreo";
             this.lblCorreo.Size = new System.Drawing.Size(46, 15);
             this.lblCorreo.TabIndex = 1;
@@ -68,7 +68,7 @@
             // lblContrasenia
             // 
             this.lblContrasenia.AutoSize = true;
-            this.lblContrasenia.Location = new System.Drawing.Point(132, 184);
+            this.lblContrasenia.Location = new System.Drawing.Point(132, 208);
             this.lblContrasenia.Name = "lblContrasenia";
             this.lblContrasenia.Size = new System.Drawing.Size(70, 15);
             this.lblContrasenia.TabIndex = 2;
@@ -77,7 +77,7 @@
             // lblConfirmarContrasenia
             // 
             this.lblConfirmarContrasenia.AutoSize = true;
-            this.lblConfirmarContrasenia.Location = new System.Drawing.Point(78, 219);
+            this.lblConfirmarContrasenia.Location = new System.Drawing.Point(132, 252);
             this.lblConfirmarContrasenia.Name = "lblConfirmarContrasenia";
             this.lblConfirmarContrasenia.Size = new System.Drawing.Size(127, 15);
             this.lblConfirmarContrasenia.TabIndex = 3;
@@ -85,35 +85,35 @@
             // 
             // txtNombreUsuario
             // 
-            this.txtNombreUsuario.Location = new System.Drawing.Point(208, 74);
+            this.txtNombreUsuario.Location = new System.Drawing.Point(132, 100);
             this.txtNombreUsuario.Name = "txtNombreUsuario";
-            this.txtNombreUsuario.Size = new System.Drawing.Size(129, 23);
+            this.txtNombreUsuario.Size = new System.Drawing.Size(175, 23);
             this.txtNombreUsuario.TabIndex = 4;
             // 
             // txtCorreo
             // 
-            this.txtCorreo.Location = new System.Drawing.Point(208, 107);
+            this.txtCorreo.Location = new System.Drawing.Point(132, 144);
             this.txtCorreo.Name = "txtCorreo";
-            this.txtCorreo.Size = new System.Drawing.Size(129, 23);
+            this.txtCorreo.Size = new System.Drawing.Size(175, 23);
             this.txtCorreo.TabIndex = 5;
             // 
             // txtContrasenia
             // 
-            this.txtContrasenia.Location = new System.Drawing.Point(208, 181);
+            this.txtContrasenia.Location = new System.Drawing.Point(132, 226);
             this.txtContrasenia.Name = "txtContrasenia";
-            this.txtContrasenia.Size = new System.Drawing.Size(129, 23);
+            this.txtContrasenia.Size = new System.Drawing.Size(175, 23);
             this.txtContrasenia.TabIndex = 6;
             // 
             // txtConfirmarContrasenia
             // 
-            this.txtConfirmarContrasenia.Location = new System.Drawing.Point(208, 216);
+            this.txtConfirmarContrasenia.Location = new System.Drawing.Point(132, 270);
             this.txtConfirmarContrasenia.Name = "txtConfirmarContrasenia";
-            this.txtConfirmarContrasenia.Size = new System.Drawing.Size(129, 23);
+            this.txtConfirmarContrasenia.Size = new System.Drawing.Size(175, 23);
             this.txtConfirmarContrasenia.TabIndex = 7;
             // 
             // btnRegistro
             // 
-            this.btnRegistro.Location = new System.Drawing.Point(313, 297);
+            this.btnRegistro.Location = new System.Drawing.Point(313, 325);
             this.btnRegistro.Name = "btnRegistro";
             this.btnRegistro.Size = new System.Drawing.Size(91, 23);
             this.btnRegistro.TabIndex = 8;
@@ -123,7 +123,7 @@
             // 
             // btnRegresar
             // 
-            this.btnRegresar.Location = new System.Drawing.Point(57, 297);
+            this.btnRegresar.Location = new System.Drawing.Point(49, 325);
             this.btnRegresar.Name = "btnRegresar";
             this.btnRegresar.Size = new System.Drawing.Size(75, 23);
             this.btnRegresar.TabIndex = 9;
@@ -134,7 +134,7 @@
             // lblSemestre
             // 
             this.lblSemestre.AutoSize = true;
-            this.lblSemestre.Location = new System.Drawing.Point(147, 149);
+            this.lblSemestre.Location = new System.Drawing.Point(132, 170);
             this.lblSemestre.Name = "lblSemestre";
             this.lblSemestre.Size = new System.Drawing.Size(58, 15);
             this.lblSemestre.TabIndex = 10;
@@ -142,9 +142,9 @@
             // 
             // txtSemestre
             // 
-            this.txtSemestre.Location = new System.Drawing.Point(208, 146);
+            this.txtSemestre.Location = new System.Drawing.Point(132, 182);
             this.txtSemestre.Name = "txtSemestre";
-            this.txtSemestre.Size = new System.Drawing.Size(129, 23);
+            this.txtSemestre.Size = new System.Drawing.Size(175, 23);
             this.txtSemestre.TabIndex = 11;
             // 
             // pictureBox1
@@ -161,7 +161,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(470, 332);
+            this.ClientSize = new System.Drawing.Size(466, 360);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtSemestre);
             this.Controls.Add(this.lblSemestre);
